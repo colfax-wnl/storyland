@@ -51,6 +51,16 @@
                 background-color: #725a38 !important;
                 border-color: #725a38 !important;
             }
+            /* Calendar height adjustments */
+            .calendar-embed {
+                max-height: 600px;
+                min-height: 500px;
+            }
+            @media (max-width: 768px) {
+                .calendar-embed {
+                    min-height: 600px;
+                }
+            }
         </style>
     </head>
     <body>
@@ -143,7 +153,7 @@
                     <div class="col-lg-10">
                         <div class="card shadow-sm">
                             <div class="card-body p-4">
-                                <div class="ratio ratio-16x9 mb-4" style="max-height: 600px;">
+                                <div class="ratio ratio-16x9 mb-4 calendar-embed">
                                     <iframe src="https://calendar.google.com/calendar/embed?src=c_f86efd7a594dcf2e403ab69536b6a0eda0cb86b6636a1f09d271495774d20e27%40group.calendar.google.com&ctz=America%2FNew_York&mode=MONTH&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0" style="border: 0" frameborder="0" scrolling="no"></iframe>
                                 </div>
                                 <div class="mt-4">
