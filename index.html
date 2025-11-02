@@ -18,8 +18,8 @@
             .gallery-item {
                 overflow: hidden;
                 transition: transform 0.3s ease;
-                height: 250px;
                 border-radius: 0.5rem;
+                aspect-ratio: 16 / 9;
             }
             .gallery-item:hover {
                 transform: translateY(-5px);
@@ -32,11 +32,6 @@
             }
             .gallery-item:hover img {
                 transform: scale(1.05);
-            }
-            @media (min-width: 768px) {
-                .gallery-item {
-                    height: 300px;
-                }
             }
         </style>
     </head>
