@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- Sun rising over mountains -->
-  <rect width="32" height="32" fill="#8b6f47"/>
-  <!-- Sun -->
-  <circle cx="16" cy="12" r="5" fill="#ffffff" opacity="0.9"/>
-  <!-- Mountains -->
-  <path d="M 0 24 L 10 14 L 15 19 L 22 12 L 32 24 Z" fill="#ffffff"/>
-</svg>
