@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- Pine tree - simple nature/mountain theme -->
-  <rect width="32" height="32" fill="#8b6f47"/>
-  <!-- Tree layers -->
-  <path d="M 16 6 L 10 13 L 12 13 L 8 18 L 11 18 L 7 24 L 25 24 L 21 18 L 24 18 L 20 13 L 22 13 Z" fill="#ffffff"/>
-  <!-- Trunk -->
-  <rect x="14" y="24" width="4" height="3" fill="#ffffff"/>
-</svg>
