@@ -10841,8 +10841,8 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/3.avif") no-repeat center bottom;
-  background-size: auto 150%;
+  background: url("../assets/img/3.avif") no-repeat center center;
+  background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
