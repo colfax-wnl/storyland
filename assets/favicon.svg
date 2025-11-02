@@ -1,13 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Pine tree - simple nature/mountain theme -->
   <rect width="32" height="32" fill="#8b6f47"/>
-  <!-- Left mountain peak -->
-  <path d="M 2 24 L 10 8 L 16 16 L 14 24 Z" fill="#ffffff" opacity="0.95"/>
-  <!-- Center mountain peak (tallest) -->
-  <path d="M 11 24 L 16 6 L 21 24 Z" fill="#ffffff" opacity="1"/>
-  <!-- Right mountain peak -->
-  <path d="M 18 24 L 22 10 L 30 24 Z" fill="#ffffff" opacity="0.9"/>
-  <!-- Snow caps -->
-  <path d="M 16 6 L 14 10 L 18 10 Z" fill="#f0f0f0"/>
-  <path d="M 10 8 L 8.5 11 L 11.5 11 Z" fill="#f0f0f0"/>
-  <path d="M 22 10 L 20.5 13 L 23.5 13 Z" fill="#f0f0f0"/>
+  <!-- Tree layers -->
+  <path d="M 16 6 L 10 13 L 12 13 L 8 18 L 11 18 L 7 24 L 25 24 L 21 18 L 24 18 L 20 13 L 22 13 Z" fill="#ffffff"/>
+  <!-- Trunk -->
+  <rect x="14" y="24" width="4" height="3" fill="#ffffff"/>
 </svg>
