@@ -10841,10 +10841,11 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/3.avif") no-repeat center bottom;
-  background-size: cover;
+  background: url("../assets/img/3.avif") no-repeat center center;
+  background-size: contain;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  min-height: 500px;
 }
 header.masthead:before {
   content: "";
